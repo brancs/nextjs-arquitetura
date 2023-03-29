@@ -10,6 +10,7 @@
   "dependencies": {
     "eslint": "^8.37.0",
     "prettier": "^2.8.7",
+    "@types/jest": "^29.5.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
@@ -23,6 +24,8 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @alura/design-system"
+    "design-system": "yarn workspace @alura/design-system",
+    "utils": "yarn workspace @alura/utils",
+    "test:utils": "yarn utils test"
   }
 }
