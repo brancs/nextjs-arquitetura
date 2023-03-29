@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 const StyledText = styled.span`
@@ -6,7 +7,7 @@ const StyledText = styled.span`
 
 type TextProps = {
   tag: "h1" | "h2" | "p" | "span";
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 function Text({ tag, children, ...props }: TextProps) {
