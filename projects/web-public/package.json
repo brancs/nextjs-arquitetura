@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
-    "@types/react-dom": "18.0.11",
+    "@alura/design-system": "*",
+    "@alura/utils": "*",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2",
-    "@alura/utils": "*"
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons": "*",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.0"
   }
 }
