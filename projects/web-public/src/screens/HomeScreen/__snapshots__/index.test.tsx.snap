@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders the page 1`] = `
+.c0 {
+  font-family: sans-serif;
+}
+
+<div>
+  <section>
+    <h1
+      class="c0"
+    >
+      Alura - Home Page 2
+    </h1>
+    <p
+      class="c0"
+    >
+       Alura 
+      6
+    </p>
+  </section>
+</div>
+`;
